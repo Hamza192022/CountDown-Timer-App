@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&family=Shippori+Mincho+B1&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Shippori Mincho B1', serif; */
+    background-image: url("./emile-seguin-R9OueKOtGGU-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+    min-height: 100vh;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+   
+}
+
+h1{
+    font-weight:normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+
+}
+.counter-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container-el{
+    text-align: center;
+
+}
+.text-set{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+.container-el span{
+    font-size: 1.3rem;
+}
